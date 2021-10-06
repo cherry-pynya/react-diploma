@@ -7,4 +7,5 @@
 * Redux
 * Redux Thunk
 * Redux Toolkit
+
 [Ссылка на репозиторий с заданием](https://github.com/netology-code/ra16-diploma)
