@@ -1,5 +1,5 @@
 export function getCartFromStorage() {
-    if (JSON.parse(window.localStorage.getItem('cart')) === null) window.localStorage.setItem('cart', JSON.stringify(this.items));
+    if (JSON.parse(window.localStorage.getItem('cart')) === null) window.localStorage.setItem('cart', JSON.stringify([]));
     return JSON.parse(window.localStorage.getItem('cart'));
 }
 
